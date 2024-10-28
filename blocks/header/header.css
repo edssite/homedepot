@@ -1,66 +1,75 @@
 .nav-sec1-p1-container{
   display: flex;
-  gap: 200px;
+  gap: 10px;
 }
 
 .nav-sec1-p1{
   display: flex;
   font-size: 14px;
+  margin-left: 50px;
+
 }
 .nav-sec1-p1 > div:first-child img{
   width: 80px;
   height: auto;
 }
-
-.nav-sec1-p2{
-  display: flex;
-  gap: 20px;
-  font-size: 14px;
+.nav-sec1-p1 > div:last-child {
+  padding-left: 20px;
 }
-
-/* .nav-sec1-p1-container{
-  display: flex;
-  gap: 505px;
-  background-color: #8B1D3F;
+.nav-sec1-p1 > div:last-child > div:first-child p{
+  margin-top: 0px;
 }
-.nav-sec1-p1, .nav-sec1-p2{
-  display: flex;
-  gap: 20px;
-  color: #FFFFFF;
-  font-size: 14px;
+.nav-sec1-p1 > div:last-child > div:first-child{
+  padding-bottom: 17px;
 }
-.nav-sec1-p1{
-  margin-left: 180px;
-}
-.nav-sec1-p2{
-  margin-right: 180px;
-}
-
-.nav-sec2-p1-container{
-  display: flex;
-  gap: 750px;
-  padding-top: 20px;
-}
-.nav-sec2-p1 img{
-  width: 180px;
+.nav-sec1-p1 > div:last-child > div:first-child img{
+  width: 15px;
   height: auto;
-  margin-left: 150px;
+}
+
+/* Search bar */
+.nav-sec1-p1 > div:last-child > div:last-child{
+  border: 1px solid #666666;
+  padding-left: 10px;
+  color: #666666;
+  font-size: 16px;
+}
+.nav-sec1-p1 > div:last-child > div:last-child p{
+  margin-top: 5px;
+}
+.nav-sec1-p1 > div:last-child > div:last-child img{
+  width: 17px;
+  height: auto;
+  padding-left: 200px;
+  padding-right: 10px;
+}
+
+/* .nav-sec1-p2:not(:last-child){
+  display: flex;
+} */
+.nav-sec1-p2 p{
+  margin-top: 0px;
+}
+.nav-sec1-p2{
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  padding-left: 40px;
+}
+
+.nav-sec2-p1{
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .nav-sec2-p2{
-  display: flex;
-  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #e5e5e5;
+  padding: 5px;
+  color: #333;
 }
-.nav-sec2-p2 img{
-  width: 140px;
-  height: auto;
-  margin-left: 20px;
-}
-
-.nav-sec3-container{
-  border-top: 1px solid rgb(178, 180, 182);
-}
-.nav-sec3{
-  display: flex;
-  gap: 50px;
-  margin-left: 180px;
-} */
