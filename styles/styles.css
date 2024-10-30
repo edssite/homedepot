@@ -10,6 +10,14 @@
  * governing permissions and limitations under the License.
  */
 
+
+ @import url("../blocks/custom/product-index-sec1.css");
+ @import url("../blocks/custom/product-index-sec2.css");
+ @import url("../blocks/custom/product-index-sec3.css");
+ @import url("../blocks/custom/product-index-sec4.css");
+ @import url("../blocks/custom/product-index-sec5.css");
+ @import url("../blocks/custom/product-index-sec6.css");
+
 :root {
   /* colors */
   --background-color: white;
