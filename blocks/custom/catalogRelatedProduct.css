@@ -1,0 +1,41 @@
+main .related-products .related-heading-wrapper {
+  margin: 0;
+  max-width: 100%;
+}
+
+main .related-products .related-heading h2 {
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+main .related-products .product-wrapper {
+  max-width: 100%;
+}
+
+main .related-products .product {
+  padding-left: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+
+main .related-products .product div {
+  padding: .5rem 0;
+}
+
+main .related-products .product img {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+main .related-products .product p {
+  font-size: 0.875rem;
+  color: #333;
+}
+
+main .related-products .product p:last-of-type {
+  margin-top: 0;
+}
