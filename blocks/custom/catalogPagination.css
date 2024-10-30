@@ -1,0 +1,97 @@
+main .pagination-view-container {
+  margin-top: 1rem !important;
+}
+
+main .pagination .pagination-view-wrapper {
+  margin: 0;
+  max-width: 100%;
+}
+
+main .pagination .pagination-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main .pagination .pagination-view p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+main .pagination .pagination-view > div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  gap: .75rem;
+  margin-top: 1rem;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(1) {
+  background-color: #cb4814;
+  border: 1px solid #cb4814;
+  border-radius: .25rem;
+  padding: .05rem .75rem;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(1) p {
+  color: #fff;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(2) {
+  border-radius: .25rem;
+  padding: .05rem .75rem;
+  border: 1px solid #666;
+  background-color: #f2f2f2;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(2) p {
+  color: #666;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(3) {
+  border-radius: .25rem;
+  padding: .05rem .75rem;
+  border: 1px solid #666;
+  background-color: #f2f2f2;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(3) p {
+  color: #666;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(4) p {
+  font-size: .875rem;
+  font-weight: 500;
+  display: flex;
+  align-items: end;
+  padding-bottom: .25rem;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(5) {
+  border-radius: .25rem;
+  padding: .05rem .75rem;
+  border: 1px solid #666;
+  background-color: #f2f2f2;
+}
+
+main .pagination .pagination-view > div:last-child div:nth-child(5) p {
+  color: #666;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+main .pagination .pagination-view > div:last-child div:last-of-type p {
+  padding: .25rem 0 .25rem 1rem;
+  color: #286fad;
+  font-size: .875rem;
+}
