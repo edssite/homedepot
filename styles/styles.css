@@ -21,14 +21,21 @@
  @import url("../blocks/custom/product-index-sec8.css");
 
 
+ @import url("../blocks/custom/catalogPage.css");
+ @import url("../blocks/custom/catalogFilter.css");
+ @import url("../blocks/custom/productCards.css");
+ @import url("../blocks/custom/catalogPagination.css");
+ @import url("../blocks/custom/catalogCustomerView.css");
+ @import url("../blocks/custom/catalogRelatedProduct.css");
+
 :root {
   /* colors */
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: #cb4814;
+  --link-hover-color: #a23a10;
 
   /* fonts */
   --body-font-family: helvetica neue, helvetica, arial , sans-serif;
@@ -47,8 +54,6 @@
   --heading-font-size-s: 24px;
   --heading-font-size-xs: 22px;
 
-  /* nav height */
-  /* --nav-height: 64px; */
 }
 
 /* fallback fonts */

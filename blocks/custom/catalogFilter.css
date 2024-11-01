@@ -1,0 +1,130 @@
+main .catalog-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5rem !important;
+}
+
+main .catalog-filter .left-filter-wrapper {
+  margin: 0;
+}
+
+main .catalog-filter .left-filter {
+  display: flex;
+  gap: 1rem;
+}
+
+main .catalog-filter .left-filter > div {
+  display: flex;
+  gap: 1rem;
+  border: .0625rem solid #666;
+  border-radius: .125rem;
+  padding: .5rem .75rem;
+}
+
+main .catalog-filter .left-filter > div p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+main .catalog-filter .right-filter > div p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+main .catalog-stock-filter .stock-filter div p {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  color: #333;
+  font-size: .875rem;
+  gap: .25rem;
+}
+
+main .catalog-filter .left-filter > div:nth-child(1) p {
+  font-weight: 700;
+}
+
+main .catalog-clear-filter .clear-filter div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main .catalog-filter .left-filter > div:last-child {
+  font-weight: 700;
+  border: 2px solid #cb4814;
+}
+
+main .catalog-filter .left-filter > div:last-child p {
+  color: #cb4814;
+}
+
+main .catalog-filter .right-filter-wrapper {
+  margin: 0;
+}
+
+main .catalog-filter .right-filter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+}
+
+main .catalog-filter .right-filter > div:last-child {
+  display: flex;
+  gap: 1rem;
+  border: .0625rem solid #666;
+  border-radius: .125rem;
+  padding: .5rem .75rem;
+}
+
+main .catalog-stock-filter {
+  margin: 0 auto !important;
+}
+
+main .catalog-stock-filter .stock-filter-container {
+  margin: 0 !important;
+}
+
+main .catalog-stock-filter .stock-filter-wrapper {
+  margin: 0 !important;
+  max-width: 100%;
+}
+
+main .catalog-stock-filter .stock-filter {
+  display: flex;
+  flex-direction: column;
+  margin-top: .75rem;
+}
+
+main .catalog-stock-filter .stock-filter > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .catalog-stock-filter .stock-filter img {
+  height: 24px;
+}
+
+main .catalog-clear-filter {
+  margin: 0 !important;
+  display: flex;
+  gap: 1rem;
+}
+
+main .catalog-clear-filter .clear-filter-wrapper {
+  margin: 0 !important;
+}
+
+main .catalog-clear-filter .clear-filter div > div:first-child p {
+  color: #286fad;
+  font-size: 1rem;
+}
+
+main .catalog-clear-filter .clear-filter div > div:last-child p {
+  background: #f2f2f2;
+  border-radius: 15rem;
+  padding: .375rem .75rem .375rem 1rem;
+  font-size: 0.875rem;
+}
