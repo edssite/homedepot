@@ -1,0 +1,16 @@
+.product-sec6-container{
+    margin-bottom: 20px !important;
+}
+.product-sec6-wrapper{
+    margin: 0px !important;
+    padding-right: 0px !important;
+}
+
+.product-sec6{
+    padding-left: 15px;
+
+        h3{
+            font-size: 24px;
+            padding-top: 15px;
+        }
+}
