@@ -1,0 +1,110 @@
+.product-sec8-p1-wrapper, .product-sec8-p2-wrapper{
+    margin: 0px !important;
+    padding-right: 0px !important;
+}
+
+.product-sec8-p1-container{
+    padding-left: 15px;
+    width: 1047px;
+    margin-top: 0px !important;
+}
+
+.product-sec8-p1, .product-sec8-p3, .product-sec8-p5{
+    h3{
+        font-size: 18px;
+    }
+}
+.product-sec8-p3, .product-sec8-p5{
+    padding-top: 30px;
+
+    h3{
+        font-size: 18px;
+    }
+
+}
+
+.product-sec8-p2-wrapper{
+    padding-top: 10px !important;
+}
+
+.product-sec8-p2{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    background: #fff;
+
+    h3{
+        font-size: 14px;
+        padding: 0px !important;
+        margin: 0px !important;
+        /* margin-top: 4.5px !important; */
+    }
+    div:has(>h3){
+        background-color: #F2F2F2;
+    }
+    p{
+        font-size: 14px;
+        color: #666666;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    div:only-of-type {
+        padding: .75rem;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        height: 20px;
+    }
+}
+
+.product-sec8-p4{
+
+    width: 1015px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    background: #fff;
+
+    h3{
+        font-size: 14px;
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-top: 4.5px !important;
+    }
+    div:has(>h3){
+        background-color: #F2F2F2;
+    }
+    p{
+        font-size: 14px;
+        color: #666666;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    div:only-of-type {
+        padding: .75rem;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        height: 20px;
+    }
+}
+
+.product-sec8-p5{
+
+    >div:last-child{
+        width: 992px;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        font-size: 14px;
+        color: #666666;
+        background-color: #F2F2F2;
+        padding: 0.75rem;
+    }
+
+    p{
+        margin: 0px !important;
+    }
+}
+
+

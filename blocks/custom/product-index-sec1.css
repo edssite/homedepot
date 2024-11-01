@@ -1,0 +1,17 @@
+.product-sec1-container{
+    margin-bottom: 0px !important;
+}
+
+.product-sec1-wrapper{
+    margin: 0px !important;
+}
+
+.product-sec1{
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-weight: 700;
+    gap: 17px;
+}

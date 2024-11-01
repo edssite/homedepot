@@ -10,6 +10,17 @@
  * governing permissions and limitations under the License.
  */
 
+
+ @import url("../blocks/custom/product-index-sec1.css");
+ @import url("../blocks/custom/product-index-sec2.css");
+ @import url("../blocks/custom/product-index-sec3.css");
+ @import url("../blocks/custom/product-index-sec4.css");
+ @import url("../blocks/custom/product-index-sec5.css");
+ @import url("../blocks/custom/product-index-sec6.css");
+ @import url("../blocks/custom/product-index-sec7.css");
+ @import url("../blocks/custom/product-index-sec8.css");
+
+
  @import url("../blocks/custom/catalogPage.css");
  @import url("../blocks/custom/catalogFilter.css");
  @import url("../blocks/custom/productCards.css");
